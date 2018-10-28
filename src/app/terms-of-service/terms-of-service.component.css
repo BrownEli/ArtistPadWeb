@@ -1,0 +1,12 @@
+.term-of-service-container{
+	padding: 25px;
+	margin-top:80px;
+	margin-bottom:50px;
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+.term-of-service-container{
+	margin-top:140px;
+}
+}

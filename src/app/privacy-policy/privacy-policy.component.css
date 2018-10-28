@@ -1,0 +1,12 @@
+.privacy-policy-container{
+	padding: 25px;
+	margin-top:80px;
+	margin-bottom:50px;
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+.privacy-policy-container{
+	margin-top:140px;
+}
+} 

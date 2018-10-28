@@ -1,0 +1,27 @@
+.questions-and-answers-container{
+	padding: 25px;
+	margin-top:80px;
+	margin-bottom:50px;
+}
+
+.highlighted-text{
+	color: #1675d1;
+	font-size: 26px;
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+.questions-and-answers-container{
+	margin-top:140px;
+}
+.highlighted-text{
+	font-size: 23px;
+}
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+.highlighted-text{
+	font-size: 20px;
+}
+}
