@@ -1,39 +1,74 @@
 .my-footer{
 	background: #0f1d71;
 	width: 100%;
-	height: 300px;
+	height: 450px;
 	position:relative;
 }
 
 .footer-copyright-container{
 	width: 100%;
-	padding:10px;
+	padding:5px;
 	position:absolute;
 	bottom:0px;	
 	border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.social-btn{
-    width: 100%;
-	padding:10px;
-	position: absolute;
-	bottom: 75px;
-    margin:0px auto;
-	text-align: center;
+.footer-container{
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90%;
+    text-align: center;
 }
 
+.custom-button{
+    width: 10%;
+    height: 45px;
+    display:block;
+	background: #1675d1;
+	font-weight: bold;
+	color: white;
+	border-radius: 25px;
+    border: 0px;
+    margin: auto;
+}
+
+.custom-button:hover{
+	background: #fff;
+    color: #1675d1;
+}
+
+@media (max-width: 967.98px) { 
+.custom-button{
+	width: 20%;
+}
+}
+
+@media (max-width: 667.98px) { 
+.custom-button{
+	width: 30%;
+}
+}
+
+
 .fa {
-    padding: 15px;
+    padding: 25px;
     font-size: 24px;
-    width: 65px;
-	height: 65px;
     text-align: center;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 .fa-instagram,.fa-facebook {
   color: white;
+}
+
+.fa:hover{
+  color:  #0f1d71;
+  background: white;
 }
 
 .footer-copyright{

@@ -11,5 +11,9 @@ export class AppFooterComponent implements OnInit {
 
   ngOnInit() {
   }
+  openAppInGooglePlay(){
+	  //console.log("in openAppInGooglePlay method");
+	  window.open('https://play.google.com/store/apps/details?id=com.elibrown.artistpad');
+  }
 
 }

@@ -2,15 +2,18 @@ nav{
 	width: 100%;
 	background: #0f1d71;
     position: fixed;
+    top:0px;
     z-index: 1;
 }
 
 a{
-  padding: 25px 10px;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 2px;
-  color: #fff;
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    border-radius: 2px;
 }
 
 .fa:hover{
@@ -20,7 +23,7 @@ a{
 }
  
 nav a:visited, a:link{
-	color: #fff;
+	color: white;
 }
 
 nav a:hover{
@@ -30,12 +33,13 @@ nav a:hover{
 
 nav a.active{
 	color: #0f1d71;
-	background:#fff;
+	background:white;
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
 a{
-  padding: 15px 3px;
+  padding: 20px 8px;
+  font-size: 14px;
 }
 }

@@ -1,25 +1,12 @@
-/* h3 text style */
-h3{
-	text-align: center;
-	color: #fff;
-}
-/* h3 text style */
-
-
-/* p text style */
-.p-title{
-	text-align: center;
-	color: #fff;
-}
-
-p{
-	color: #fff;
+/* h4 p text style */
+h3,h4,p{
 	text-align: center;
 }
-/* p text style */
+/* h4 p text style */
+
 
 .full-description-img{
-	width: 50px;
+	width: 40px;
 	height: 40px;
 	display: block;
 	margin: auto;
@@ -27,28 +14,16 @@ p{
 
 /* Container style */
 .page-context-div{
-	width: 100%;
 	padding-top:25px;
 	padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
 	position:relative;
-	background: #000045;
+	
 }
 .full-description{
-	width: 80%;
 	display:block;
 	margin: auto;
-	border-radius: 25px;
-	box-shadow: 0 0 4px #000035;
-	padding: 25px;
-	background: rgb(255, 255, 255);
-    background: rgba(255, 255, 255, 0.1);
 }
 /* Container style */
 
-
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
-.full-description{
-	width: 90%;
-}
-}
